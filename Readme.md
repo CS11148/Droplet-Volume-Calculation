@@ -43,12 +43,12 @@ This script automates the entire process of droplet volume analysis by running t
 
 ### How to use:
 Run the script in the terminal:
+  
+  ./b.sh
 
-```bash
-bash b.sh
+---
 
-
-## Explanation of Text Files
+### Explanation of Text Files:
 
 - **`data.txt`**:  
   This file contains the individual volumes of droplets detected in a single frame. Each line represents the volume of one droplet, written in pixels.
@@ -75,7 +75,6 @@ This script extracts one frame every 15 seconds from a video and saves it as a P
 ### Example usage:
 Update the variables at the bottom of the script:
 
-```python
 video_file = "input.mp4"         # Path to your input video
 output_dir = "frames_output"     # Folder to save extracted frames
 extract_frames(video_file, output_dir)
@@ -96,7 +95,6 @@ This script applies a high-pass Fourier filter to an input image to reduce low-f
 
 Run the script with the image filename as an argument:
 
-```bash
 python a.py input_image.png
 
 
@@ -116,7 +114,6 @@ This script detects and analyzes small droplets in an image by finding connected
 
 Just run the script (make sure `output.png` is present in the same directory):
 
-```bash
 python d.py
 
 
@@ -134,7 +131,6 @@ This script reads droplet area values from a text file and calculates the total 
 
 ### Example usage:
 
-```bash
 python vol.py
 
 
@@ -151,7 +147,6 @@ This script sums up the individual summed up droplet volumes and writes the tota
 
 ### Example usage:
 
-```bash
 python v1.py
 
 ## Clear `vol.txt` - Prepare for New Calculations
@@ -163,5 +158,4 @@ This script clears the `vol.txt` file to ensure that new droplet volume calculat
 
 ### Example usage:
 
-```bash
 python vol_clear_file.py
