@@ -149,7 +149,7 @@ This script sums up the individual summed up droplet volumes and writes the tota
 
 python v1.py
 
-## Clear `vol.txt` - Prepare for New Calculations
+## vol_clear_file.py - Clear `vol.txt` - Prepare for New Calculations
 
 This script clears the `vol.txt` file to ensure that new droplet volume calculations don't get added to any previous results.
 
