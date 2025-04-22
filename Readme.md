@@ -73,11 +73,10 @@ This script extracts one frame every 15 seconds from a video and saves it as a P
 - Stores all the frames in the specified output folder.
 
 ### Example usage:
-Update the variables at the bottom of the script:
-
-video_file = "input.mp4"         # Path to your input video
-output_dir = "frames_output"     # Folder to save extracted frames
-extract_frames(video_file, output_dir)
+- Update the variables at the bottom of the script
+- video_file = "input.mp4"         # Path to your input video
+- output_dir = "frames_output"     # Folder to save extracted frames
+- extract_frames(video_file, output_dir)
 
 
 ## a.py - Fourier Transform Filtering
